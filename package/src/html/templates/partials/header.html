@@ -1,6 +1,60 @@
 <!-- HEADER COMPONENT -->
-<nav>
-  <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
-</nav>
+<header class="header">
+	<div class="wrapper">
+		<a class="header__brand" href="index.html">
+			<img src="./images/logo.svg" alt="" />
+		</a>
+		<div class="main-nav">
+			<div class="main-nav__menu">
+				<span></span>
+			</div>
+			<div class="main-nav__menu--search">
+				<span></span>
+			</div>
+			<nav class="main-nav__list">
+				<ul>
+					<li class="current_page_item">
+						<a href="internal.html">Conservation</a>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="internal-bg.html">Research</a>
+						<ul class="sub-menu">
+							<li><a href="#">Education</a></li>
+							<li><a href="#">How to research</a></li>
+							<li><a href="#">Links to Research Resources</a></li>
+							<li><a href="#">Register for Research</a></li>
+							<li><a href="#">Prize</a></li>
+							<li><a href="#">Symposium</a></li>
+							<li><a href="#">Libraries</a></li>
+							<li><a href="./forums.html">Forums</a>
+						</ul>
+					</li>
+					<li><a href="news.html">News &amp; Campaign</a></li>
+					<li class="menu-item-has-children">
+						<a href="events.html">Events</a>
+						<ul class="sub-menu">
+							<li><a href="archive.html">Archive</a></li>
+						</ul>
+					</li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="staff-1.html">About us</a></li>
+					<li><a href="#">Support us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<div class="search-bar">
+	<div class="wrapper">
+		<form>
+			<fieldset>
+				<div class="search-container">
+					<label>
+						<input type="text" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+					</label>
+					<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
